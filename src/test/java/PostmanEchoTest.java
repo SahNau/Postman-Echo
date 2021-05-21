@@ -19,6 +19,6 @@ public class PostmanEchoTest {
                 .then()
                 .statusCode(200)
                 // сравнение строк в теле по датам
-                .body("data", equalTo("som data"));
+                .body("data", equalTo("some data"));
     }
 }
